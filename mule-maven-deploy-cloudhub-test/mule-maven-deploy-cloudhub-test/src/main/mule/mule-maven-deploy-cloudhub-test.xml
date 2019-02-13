@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="mule-maven-deploy-cloudhub-testFlow" doc:id="da6ff992-cead-41ed-8012-cb4b5c74639f" >
 		<http:listener doc:name="Listener" doc:id="db06d302-e801-4f16-888a-52c6f01310aa" config-ref="HTTP_Listener_config" path="/hello"/>
-		<set-payload value="'Maven Deployment Plugin Demo - Success '" doc:name="Set Payload Hello" doc:id="b311b743-5097-4bb7-861a-e84dca7138b2" />
+		<set-payload value="'Maven Deployment Plugin Demo - Success 13Feb19'" doc:name="Set Payload Hello" doc:id="b311b743-5097-4bb7-861a-e84dca7138b2" />
 	</flow>
 </mule>
